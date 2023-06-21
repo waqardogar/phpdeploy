@@ -1,0 +1,14 @@
+users
+create database users
+
+products
+CREATE DATABASE product_db
+
+CREATE TABLE products(
+id int PRIMARY KEY AUTO_INCREMENT NOT null,
+name varchar(255) not null,
+description varchar(255) NOT null,
+quantity int NOT null,
+unit_price float not null,
+image varchar(255) NOT null
+);
